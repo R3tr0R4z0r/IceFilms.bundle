@@ -13,9 +13,9 @@ import Utils
 from NavExObject import CaptchaRequiredObject
 from MetaProviders import DBProvider, MediaInfo
 
-LMWT_SEARCH_URL= "http://www.1channel.ch/index.php"
+LMWT_SEARCH_URL= "https://primewire.unblocked.pw/index.php"
 
-ICEFILMS_URL = "http://www.icefilms.info"
+ICEFILMS_URL = "http://ipv6.icefilms.info/"
 ICEFILMS_VIDEO_URL = ICEFILMS_URL + "/ip.php?v=%s"
 ICEFILMS_SOURCES_URL = ICEFILMS_URL + "/membersonly/components/com_iceplayer/video.php?h=374&w=631&vid=%s&img="
 ICEFILMS_AJAX = ICEFILMS_URL+'membersonly/components/com_iceplayer/video.phpAjaxResp.php'
@@ -251,12 +251,12 @@ def GetItemForSource(mediainfo, source_item):
 			# source are shown.
 			if (captcha):
 				return CaptchaRequiredObject(
-					url="captcha://icefilms.info/" + source_item['id'] + "/" + source_item['parts'][0]['id'],
+					url="captcha://ipv6.icefilms.info/" + source_item['id'] + "/" + source_item['parts'][0]['id'],
 					title=source_item['name'] + " - " + source_item['provider_name'] + " - " + source_item['quality'],
 				)
 			
 			return VideoClipObject(
-				url="external://icefilms.info/" + source_item['id'] + "/" + source_item['parts'][0]['id'],
+				url="external://ipv6.icefilms.info/" + source_item['id'] + "/" + source_item['parts'][0]['id'],
 				title=source_item['name'] + " - " + source_item['provider_name'] + " - " + source_item['quality'],
 				summary=mediainfo.summary,
 				art=mediainfo.background,

@@ -18,7 +18,7 @@ from datetime import date
 
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22'
 
-ICEFILMS_URL = "http://www.icefilms.info"
+ICEFILMS_URL = "http://ipv6.icefilms.info/"
 ICEFILMS_VIDEO_URL = ICEFILMS_URL + "/ip.php?v=%s"
 ICEFILMS_SOURCES_URL = ICEFILMS_URL + "/membersonly/components/com_iceplayer/video.php?h=374&w=631&vid=%s&img="
 ICEFILMS_AJAX = ICEFILMS_URL+'membersonly/components/com_iceplayer/video.phpAjaxResp.php'
