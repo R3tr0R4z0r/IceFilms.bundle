@@ -15,7 +15,7 @@ from MetaProviders import DBProvider, MediaInfo
 
 LMWT_SEARCH_URL= "https://primewiremx.lol/index.php"
 
-ICEFILMS_URL = "http://icefilms.unblockit.pro/"
+ICEFILMS_URL = "https://icefilms.123proxy.page/"
 ICEFILMS_VIDEO_URL = ICEFILMS_URL + "/ip.php?v=%s"
 ICEFILMS_SOURCES_URL = ICEFILMS_URL + "/membersonly/components/com_iceplayer/video.php?h=374&w=631&vid=%s&img="
 ICEFILMS_AJAX = ICEFILMS_URL+'membersonly/components/com_iceplayer/video.phpAjaxResp.php'
