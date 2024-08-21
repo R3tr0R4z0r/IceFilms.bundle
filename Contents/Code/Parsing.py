@@ -13,7 +13,7 @@ import Utils
 from NavExObject import CaptchaRequiredObject
 from MetaProviders import DBProvider, MediaInfo
 
-LMWT_SEARCH_URL= "https://www.primewire.unblockit.pro/index.php"
+LMWT_SEARCH_URL= "https://primewiremx.lol/index.php"
 
 ICEFILMS_URL = "http://icefilms.unblockit.pro/"
 ICEFILMS_VIDEO_URL = ICEFILMS_URL + "/ip.php?v=%s"
